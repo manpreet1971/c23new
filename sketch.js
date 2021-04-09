@@ -12,15 +12,15 @@ function setup() {
 
     box1 = new Box(100, 100, 50, 50);;
     box2 = new Box(250, 100, 10, 70);
-   // ground = new Ground(10, 350, 800, 50);
+    // ground = new Ground(10, 350, 800, 50);
     ground = new Ground(200, 350, 400, 50);
     ground.shapeColor = "green"
 
 }
 function draw() {
-    background("yellow")
+    background("red")
     Engine.update(engine);
-   box1.display();
+    box1.display();
     box2.display();
     ground.display();
 }
